@@ -1,0 +1,37 @@
+<include file="Index/header"/>
+<include file="Index/nav"/>
+
+
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <form class="form-horizontal" id="rehe-form">
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">剩余课时:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" value="{$res.remain_hour}" name="remain_hour" id="inputPassword3" placeholder="请填写分数">
+                        </div>
+                    </div>
+                    <input type="hidden" name="id" value="{$res.id}">
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" class="btn btn-info btn-fill" onclick="formSubmit()">提交</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var SCOPE = {
+            //点击提交后跳转的链接
+            'add_url' : 'admin.php?c=time&a=edit',
+            //成功后返回的链接
+            'success_url' : 'admin.php?c=time'
+        }
+    </script>
+
+    <include file="Index/tail"/>
