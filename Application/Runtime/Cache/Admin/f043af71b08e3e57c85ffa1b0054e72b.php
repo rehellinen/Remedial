@@ -107,40 +107,32 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6">
-
-                        <form class="form-horizontal" id="rehe-form">
-                            <div class="form-group">
-                                <label for="inputname" class="col-sm-2 control-label">菜单名:</label>
-                                <div class="col-sm-5">
-                                    <input type="text" name="name" class="form-control" id="inputname" placeholder="请填写菜单名" value="<?php echo ($menus["name"]); ?>">
-                                </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">订单管理</h4>
                             </div>
-
-                            <div class="form-group">
-                                <label for="inputPassword3" class="col-sm-2 control-label">控制器:</label>
-                                <div class="col-sm-5">
-                                    <input type="text" class="form-control" name="c" id="inputPassword3" placeholder="控制器如index" value="<?php echo ($menus["c"]); ?>">
-                                </div>
+                            <div class="content table-responsive table-full-width">
+                                <form id="singcms-listorder">
+                                    <table class="table table-hover table-striped singcms-table">
+                                        <thead>
+                                        <th>ID</th>
+                                        <th>学生</th>
+                                        <th>价格</th>
+                                        <th>时间</th>
+                                        </thead>
+                                        <tbody>
+                                        <?php if(is_array($fee)): $i = 0; $__LIST__ = $fee;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$comment): $mod = ($i % 2 );++$i;?><tr>
+                                                <td><?php echo ($comment["id"]); ?></td>
+                                                <td><?php echo ($comment["openid"]); ?></td>
+                                                <td><?php echo ($comment["total_fee"]); ?></td>
+                                                <td><?php echo ($comment["time_end"]); ?></td>
+                                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                                        </tbody>
+                                    </table>
+                                </form>
                             </div>
-
-                            <div class="form-group">
-                                <label for="inputPassword3" class="col-sm-2 control-label">方法:</label>
-                                <div class="col-sm-5">
-                                    <input type="text" class="form-control" name="f" id="inputPassword3" placeholder="方法名如index" value="<?php echo ($menus["f"]); ?>">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="button" class="btn btn-info btn-fill" onclick="formSubmit()">更新</button>
-                                </div>
-                            </div>
-
-                            <input type="hidden" name="menu_id"  value="<?php echo ($menus["menu_id"]); ?>">
-                        </form>
-
-
+                        </div>
                     </div>
 
                 </div>
@@ -163,7 +155,6 @@
                     </p>
                 </div>
             </footer>
-
         </div>
     </div>
 
@@ -172,11 +163,12 @@
 
 <script>
     var SCOPE = {
-        'add_url' : 'admin.php?c=menu&a=add',
-        'success_url' : 'admin.php?c=menu',
+        'skip_url' : 'admin.php?c=board&a=add',
+        'set_status_url' : 'admin.php?c=board&a=setStatus',
+        'listorder_url' : 'admin.php?c=board&a=listorder'
     }
 </script>
-<script src="Public/js/common.js"></script>
+
 <!--   Core JS Files   -->
 <script src="Public/assets/js/jquery-1.10.2.js" type="text/javascript"></script>
 <script src="Public/assets/js/bootstrap.min.js" type="text/javascript"></script>
@@ -190,12 +182,16 @@
 <!--  Notifications Plugin    -->
 <script src="Public/assets/js/bootstrap-notify.js"></script>
 
+
 <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 <script src="Public/assets/js/light-bootstrap-dashboard.js"></script>
 
 <!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 <script src="Public/assets/js/demo.js"></script>
+
+
 <script src="Public/js/dialog/layer.js"></script>
 <script src="Public/js/dialog.js"></script>
+<script src="Public/js/common.js"></script>
 
 </html>
