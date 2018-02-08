@@ -28,7 +28,8 @@ class LoginController extends Controller
     public function check() {
         $username = $_POST['username'];
         $password = $_POST['password'];
-        if(!trim($username)){
+        
+	if(!trim($username)){
             return show(0,'用户名不能为空');
         }
         if(!trim($password)){

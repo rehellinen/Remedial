@@ -36,7 +36,7 @@
 </head>
 <body>
 <?php
- $menu = D("Menu")->getMenu(); $index = 'index'; $personal = 'personal'; $username = getLoginUsername(); foreach($menu as $key=>$value) { if($value['c'] == 'admin' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'menu' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'comment' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'class' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'student' && $username != 'admin'){ unset($menu[$key]); } } ?>
+ $menu = D("Menu")->getMenu(); $index = 'index'; $personal = 'personal'; $username = getLoginUsername(); foreach($menu as $key=>$value) { if($value['c'] == 'commentExt' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'board' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'admin' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'menu' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'comment' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'class' && $username != 'admin'){ unset($menu[$key]); } if($value['c'] == 'student' && $username != 'admin'){ unset($menu[$key]); } } ?>
 
 
 <div class="wrapper">
@@ -51,8 +51,8 @@
                 </a>
             </div>
 
-            <ul class="nav">
-                <li <?php echo (getActive($index)); ?>>
+            <ul class="nav" >
+                <li <?php echo (getActive($index)); ?> <?php echo (isAdmin($username)); ?>">
                     <a href="admin.php">
                         <i class="pe-7s-graph"></i>
                         <p>首页</p>
@@ -84,7 +84,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">后台管理</a>
+                <a class="navbar-brand" href="#">慧学教育</a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-left">

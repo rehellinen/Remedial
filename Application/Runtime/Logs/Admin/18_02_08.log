@@ -1,0 +1,90 @@
+[ 2018-02-08T18:34:25+08:00 ] 14.222.181.25 /back/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003153s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2018-02-08T18:34:25+08:00 ] 14.222.181.25 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.071634s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.071720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2018-02-08T22:22:50+08:00 ] 223.73.120.160 /back/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2018-02-08T22:22:50+08:00 ] 223.73.120.160 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-02-08T22:22:53+08:00 ] 223.73.120.160 /back/index.php?m=admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_name="123" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-02-08T22:22:56+08:00 ] 223.73.120.160 /back/index.php?m=admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_name="123" ) LIMIT 1   [ RunTime:0.0007s ]
+

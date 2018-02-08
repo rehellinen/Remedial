@@ -1,0 +1,12 @@
+[ 2018-01-22T13:24:30+08:00 ] 223.73.146.78 /back/assets/img/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-01-22T13:33:18+08:00 ] 223.73.146.78 /back/upload/2017/10/15/59e34d4ff1bac.PNG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+ERR: 无法加载模块:Upload
+

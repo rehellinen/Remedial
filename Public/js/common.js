@@ -34,11 +34,17 @@ function formSubmit() {
     $(data).each(function (i){
         postData[this.name] = this.value;
     });
+  
+   var info=JSON.stringify(postData); 
+   console.log(info);
     //利用ajax把获取到的数据post给服务器
     url = SCOPE.add_url;
     $.post(url,postData,function (result) {
         if(result.status===1) {
             //成功插入
+            $.post('../tp3/admin.php?c=WxSearch&a=teaupdate',info,function (result){
+                console.log(result);
+            })
             return dialog.success(result.message,SCOPE.success_url);
         }else if(result.status===0){
             //插入失败
@@ -61,7 +67,7 @@ $('.table-striped #rehe-delete').on('click',function () {
     data = {};
     data['id'] = id;
     data['status'] = -1;
-
+    console.log('123');
     layer.open({
         type : 0,
         title : '是否提交? ',
@@ -73,13 +79,33 @@ $('.table-striped #rehe-delete').on('click',function () {
         yes : function () {
             //执行相关跳转
             todelete(url,data);
-        }
+        },
     });
 });
 
 function todelete(url,data) {
-    $.post(url,data,function (result) {
-            if(result.status === 1) {
+    $.post(
+        url,
+        data,
+        function (result) {
+            if(result.status == 1) {
+                return dialog.success(result.message,'');
+            }else{
+                return dialog.error(result.message);
+            }
+        }
+        ,"JSON");
+}
+
+function lhtodelete(url,data,info) {//lh新建的函数
+    $.post(
+        url,
+        data,
+        function (result) {
+            $.post('../tp3/admin.php?c=WxSearch&a=clsupdate',info,function (result){
+                console.log(result);
+            })
+            if(result.status == 1) {
                 return dialog.success(result.message,'');
             }else{
                 return dialog.error(result.message);
@@ -163,13 +189,20 @@ $('.singcms-table #tea-on-off').on('click',function () {
         yes : function () {
             data['tea_type'] = 1;
             data['type'] = 2;
+            var info=JSON.stringify(data); 
+            console.log('shenhetongguo:'+info);
+             $.post('../tp3/admin.php?c=WxSearch&a=tearegister',info,function (result){
+                console.log(result);
+            })
             todelete(url,data);
         },
         btn2 : function () {
-            alert(1);
             data['tea_type'] = 0;
             data['type'] = 0;
+            var info=JSON.stringify(data); 
+            console.log('不通过:'+info);
             todelete(url,data);
+            // return false;
         }
     });
 });
@@ -188,6 +221,7 @@ $('.singcms-table #comment-on-off').on('click',function () {
         content : "点击下面按钮审核",
         scrollbar : true,
         yes : function () {
+            
             data['status'] = 2;
             todelete(url,data);
         },
@@ -229,7 +263,7 @@ $('.singcms-table #class-on-off').on('click',function () {
     var url = SCOPE.set_status_url;
     data = {};
     data['id'] = id;
-
+    var info=JSON.stringify(data); 
     layer.open({
         type : 0,
         title : '审核 ',
@@ -238,12 +272,23 @@ $('.singcms-table #class-on-off').on('click',function () {
         content : "点击下面按钮审核",
         scrollbar : true,
         yes : function () {
+            
+            console.log('shenhetongguo:'+info);
+             
             data['tea_type'] = 1;
-            todelete(url,data);
+            // $.post('../tp3/admin.php?c=WxSearch&a=clsupdate',info,function (result){
+            //     console.log(result);
+            // })
+            // todelete(url,data);
+            lhtodelete(url,data,info);
+            
         },
         btn2 : function () {
+            console.log('课程审核不通过'+info);
             data['tea_type'] = -2;
-            todelete(url,data);
+            
+            // todelete(url,data);
+            lhtodelete(url,data,info);
             return false;
         }
     });

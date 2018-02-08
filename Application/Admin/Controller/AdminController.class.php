@@ -97,12 +97,15 @@ class AdminController extends CommonController
     public function setStatus() {
         if($_POST){
             $id = $_POST['id'];
+
             //执行审核操作
-            if($_POST['type'] || $_POST['type'] === 0){
+            if($_POST['type'] || $_POST['type'] == 0){
                 $type = $_POST['type'];
                 $tea_type = $_POST['tea_type'];
+                //echo $id."||".$type."||".$tea_type;exit;
                 $res = D("Openid")->updateStatusById($id,$type);
                 $res2 = D("Admin")->updateTeaTypeById($id,$tea_type);
+                // echo $res;echo $res2;exit;
                 if($res && $res2){
                     return show(1,'成功');
                 }else{

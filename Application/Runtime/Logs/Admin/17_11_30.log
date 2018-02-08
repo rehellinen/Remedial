@@ -1,0 +1,2468 @@
+[ 2017-11-30T15:46:22+08:00 ] 14.152.69.166 /back/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:46:22+08:00 ] 14.152.69.166 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-11-30T15:46:31+08:00 ] 14.215.161.65 /back/index.php?m=admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_name="admin" ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-11-30T15:46:32+08:00 ] 112.96.170.222 /back/index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `tea_type` = -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu_basic_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.392831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.392888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-11-30T15:46:39+08:00 ] 112.96.170.222 /back/index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `tea_type` = -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu_basic_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-11-30T15:47:59+08:00 ] 112.96.170.222 /back/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `tea_type` = -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu_basic_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-11-30T15:48:13+08:00 ] 14.116.133.170 /back/index.php?nsukey=Lq7v8t8LKQy1hqKerNUj5ibEH1Jz7DVFz0CTPPXgqQ7ApR6BN0fKIAw7JKdoHoBLdnIt5Xe%2F0jlqCX4qcZsmATTGX7%2BL%2Bz1MVpVJsRwWS8POixF4rUGW83VvLLgI2MoQyBjbbF94uoSDccmA8WFBQIMN2yl9fwWUEZ6hEhdafgA1eReFVKEj7p%2Fw3cfgfWXF4hs1jTgiJFzIpb5mIJVLOg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:13+08:00 ] 14.116.133.170 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-11-30T15:48:13+08:00 ] 113.96.218.51 /back/index.php?nsukey=Lq7v8t8LKQy1hqKerNUj5ibEH1Jz7DVFz0CTPPXgqQ7ApR6BN0fKIAw7JKdoHoBLdnIt5Xe%2F0jlqCX4qcZsmATTGX7%2BL%2Bz1MVpVJsRwWS8POixF4rUGW83VvLLgI2MoQyBjbbF94uoSDccmA8WFBQIMN2yl9fwWUEZ6hEhdafgA1eReFVKEj7p%2Fw3cfgfWXF4hs1jTgiJFzIpb5mIJVLOg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:13+08:00 ] 183.3.255.35 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-11-30T15:48:14+08:00 ] 112.96.145.56 /back/index.php?nsukey=Lq7v8t8LKQy1hqKerNUj5ibEH1Jz7DVFz0CTPPXgqQ7ApR6BN0fKIAw7JKdoHoBLdnIt5Xe%2F0jlqCX4qcZsmATTGX7%2BL%2Bz1MVpVJsRwWS8POixF4rUGW83VvLLgI2MoQyBjbbF94uoSDccmA8WFBQIMN2yl9fwWUEZ6hEhdafgA1eReFVKEj7p%2Fw3cfgfWXF4hs1jTgiJFzIpb5mIJVLOg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:14+08:00 ] 112.96.145.56 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-11-30T15:48:17+08:00 ] 183.3.227.102 /back/index.php?m=&c=login&nsukey=T8eUynYRT084S1sO3tf0sU2N%2Frzd%2F1fy%2FpksTk2zDHpiftNTQ5keg4GfOzW35hFvAwK22mYICJmqA35v6mOs5f8S2CfTnftrJt62OddlI6bVI64A69JY7nLKt2NvdMphIJTKq%2FhMZ3%2Bl40G3Cu9o7sjQw6Xk5Gsh%2BuoXBx%2Fri0hN7tAgTcdzC98K3MowU9GlfKopPjfy9kT2r4czUsJxSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-11-30T15:48:18+08:00 ] 183.3.226.234 /back/index.php?m=&c=login&nsukey=T8eUynYRT084S1sO3tf0sU2N%2Frzd%2F1fy%2FpksTk2zDHpiftNTQ5keg4GfOzW35hFvAwK22mYICJmqA35v6mOs5f8S2CfTnftrJt62OddlI6bVI64A69JY7nLKt2NvdMphIJTKq%2FhMZ3%2Bl40G3Cu9o7sjQw6Xk5Gsh%2BuoXBx%2Fri0hN7tAgTcdzC98K3MowU9GlfKopPjfy9kT2r4czUsJxSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-11-30T15:48:18+08:00 ] 183.3.227.100 /back/index.php?m=&c=login&nsukey=T8eUynYRT084S1sO3tf0sU2N%2Frzd%2F1fy%2FpksTk2zDHpiftNTQ5keg4GfOzW35hFvAwK22mYICJmqA35v6mOs5f8S2CfTnftrJt62OddlI6bVI64A69JY7nLKt2NvdMphIJTKq%2FhMZ3%2Bl40G3Cu9o7sjQw6Xk5Gsh%2BuoXBx%2Fri0hN7tAgTcdzC98K3MowU9GlfKopPjfy9kT2r4czUsJxSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-11-30T15:48:19+08:00 ] 113.96.219.248 /back/index.php?m=&c=login&nsukey=T8eUynYRT084S1sO3tf0sU2N%2Frzd%2F1fy%2FpksTk2zDHpiftNTQ5keg4GfOzW35hFvAwK22mYICJmqA35v6mOs5f8S2CfTnftrJt62OddlI6bVI64A69JY7nLKt2NvdMphIJTKq%2FhMZ3%2Bl40G3Cu9o7sjQw6Xk5Gsh%2BuoXBx%2Fri0hN7tAgTcdzC98K3MowU9GlfKopPjfy9kT2r4czUsJxSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-11-30T15:48:19+08:00 ] 183.3.255.28 /back/index.php?m=&c=login&nsukey=T8eUynYRT084S1sO3tf0sU2N%2Frzd%2F1fy%2FpksTk2zDHpiftNTQ5keg4GfOzW35hFvAwK22mYICJmqA35v6mOs5f8S2CfTnftrJt62OddlI6bVI64A69JY7nLKt2NvdMphIJTKq%2FhMZ3%2Bl40G3Cu9o7sjQw6Xk5Gsh%2BuoXBx%2Fri0hN7tAgTcdzC98K3MowU9GlfKopPjfy9kT2r4czUsJxSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-11-30T15:48:21+08:00 ] 120.204.17.67 /back/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:21+08:00 ] 120.204.17.67 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-11-30T15:48:23+08:00 ] 120.204.17.69 /back/index.php?nsukey=Lq7v8t8LKQy1hqKerNUj5ibEH1Jz7DVFz0CTPPXgqQ7ApR6BN0fKIAw7JKdoHoBLdnIt5Xe%2F0jlqCX4qcZsmATTGX7%2BL%2Bz1MVpVJsRwWS8POixF4rUGW83VvLLgI2MoQyBjbbF94uoSDccmA8WFBQIMN2yl9fwWUEZ6hEhdafgA1eReFVKEj7p%2Fw3cfgfWXF4hs1jTgiJFzIpb5mIJVLOg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:24+08:00 ] 120.204.17.70 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-11-30T15:48:24+08:00 ] 120.204.17.69 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-11-30T15:48:25+08:00 ] 112.96.145.56 /back/index.php?m=&c=login&nsukey=T8eUynYRT084S1sO3tf0sU2N%2Frzd%2F1fy%2FpksTk2zDHpiftNTQ5keg4GfOzW35hFvAwK22mYICJmqA35v6mOs5f8S2CfTnftrJt62OddlI6bVI64A69JY7nLKt2NvdMphIJTKq%2FhMZ3%2Bl40G3Cu9o7sjQw6Xk5Gsh%2BuoXBx%2Fri0hN7tAgTcdzC98K3MowU9GlfKopPjfy9kT2r4czUsJxSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-11-30T15:48:27+08:00 ] 120.204.17.70 /back/index.php?m=&c=login&nsukey=T8eUynYRT084S1sO3tf0sU2N%2Frzd%2F1fy%2FpksTk2zDHpiftNTQ5keg4GfOzW35hFvAwK22mYICJmqA35v6mOs5f8S2CfTnftrJt62OddlI6bVI64A69JY7nLKt2NvdMphIJTKq%2FhMZ3%2Bl40G3Cu9o7sjQw6Xk5Gsh%2BuoXBx%2Fri0hN7tAgTcdzC98K3MowU9GlfKopPjfy9kT2r4czUsJxSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022933s ]
+
+[ 2017-11-30T15:48:27+08:00 ] 120.204.17.68 /back/index.php?m=&c=login&nsukey=T8eUynYRT084S1sO3tf0sU2N%2Frzd%2F1fy%2FpksTk2zDHpiftNTQ5keg4GfOzW35hFvAwK22mYICJmqA35v6mOs5f8S2CfTnftrJt62OddlI6bVI64A69JY7nLKt2NvdMphIJTKq%2FhMZ3%2Bl40G3Cu9o7sjQw6Xk5Gsh%2BuoXBx%2Fri0hN7tAgTcdzC98K3MowU9GlfKopPjfy9kT2r4czUsJxSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-11-30T15:48:27+08:00 ] 112.96.145.56 /back/index.php?m=&c=login&nsukey=T8eUynYRT084S1sO3tf0sU2N%2Frzd%2F1fy%2FpksTk2zDHpiftNTQ5keg4GfOzW35hFvAwK22mYICJmqA35v6mOs5f8S2CfTnftrJt62OddlI6bVI64A69JY7nLKt2NvdMphIJTKq%2FhMZ3%2Bl40G3Cu9o7sjQw6Xk5Gsh%2BuoXBx%2Fri0hN7tAgTcdzC98K3MowU9GlfKopPjfy9kT2r4czUsJxSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-11-30T15:48:36+08:00 ] 112.96.145.56 /back/index.php?m=admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_name="admin" ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-11-30T15:48:37+08:00 ] 112.96.145.56 /back/index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `tea_type` = -1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu_basic_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2017-11-30T15:48:38+08:00 ] 14.116.133.170 /back/index.php?m=admin&c=index&nsukey=a6YvoR5kk1FCBLAbcqQVSuv%2FC5uYV86uIMSJFiA0LpK219OUWxVmlGFdH8CLaoEsDTDeYVZJ4oDR6JcecPLQ1ZGmRgUHndNqkV8SCvUDHWaLwYMkrUIVQuw88kyzcSqfgT7cobalmBbb0RqP%2BBtMtkaDgBrdhNzJMsW6elyDRFJQ%2FvOzaM8UeeqGI2bf97nr8yBvJLqC3sxmy614akRdEg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:38+08:00 ] 14.116.133.170 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-11-30T15:48:38+08:00 ] 113.96.219.250 /back/index.php?m=admin&c=index&nsukey=a6YvoR5kk1FCBLAbcqQVSuv%2FC5uYV86uIMSJFiA0LpK219OUWxVmlGFdH8CLaoEsDTDeYVZJ4oDR6JcecPLQ1ZGmRgUHndNqkV8SCvUDHWaLwYMkrUIVQuw88kyzcSqfgT7cobalmBbb0RqP%2BBtMtkaDgBrdhNzJMsW6elyDRFJQ%2FvOzaM8UeeqGI2bf97nr8yBvJLqC3sxmy614akRdEg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:38+08:00 ] 113.96.218.50 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-11-30T15:48:39+08:00 ] 112.96.145.56 /back/index.php?m=admin&c=index&nsukey=a6YvoR5kk1FCBLAbcqQVSuv%2FC5uYV86uIMSJFiA0LpK219OUWxVmlGFdH8CLaoEsDTDeYVZJ4oDR6JcecPLQ1ZGmRgUHndNqkV8SCvUDHWaLwYMkrUIVQuw88kyzcSqfgT7cobalmBbb0RqP%2BBtMtkaDgBrdhNzJMsW6elyDRFJQ%2FvOzaM8UeeqGI2bf97nr8yBvJLqC3sxmy614akRdEg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `tea_type` = -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu_basic_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-11-30T15:48:46+08:00 ] 112.96.145.56 /back/admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 17 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-11-30T15:48:47+08:00 ] 120.204.17.69 /back/index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:47+08:00 ] 120.204.17.69 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-11-30T15:48:48+08:00 ] 14.116.133.169 /back/admin.php?c=admin&nsukey=f7uaXjhg2sVec5CFMTmG5Sku4A8g8cXgr9o%2BrXi3UJmLSV%2BNYjKCR7fcDfPUnBEHhRnwIrFOvn3AYWYf6%2FU06gRH9i2uMv%2F85MFm2QAAK7h0Vtx5IdUdoXJUyyw54bYrIYEApSDwGQFLz3kePsxL5toq8tO9soGSs4Ta3YaZG%2Bk7ZwRRo35%2B5eSDAks%2FGn%2FWUyu1qX2DFKL%2FjyVe%2FBlcKA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:48+08:00 ] 14.116.133.169 /back/admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-11-30T15:48:48+08:00 ] 121.51.32.144 /back/index.php?m=admin&c=index&nsukey=a6YvoR5kk1FCBLAbcqQVSuv%2FC5uYV86uIMSJFiA0LpK219OUWxVmlGFdH8CLaoEsDTDeYVZJ4oDR6JcecPLQ1ZGmRgUHndNqkV8SCvUDHWaLwYMkrUIVQuw88kyzcSqfgT7cobalmBbb0RqP%2BBtMtkaDgBrdhNzJMsW6elyDRFJQ%2FvOzaM8UeeqGI2bf97nr8yBvJLqC3sxmy614akRdEg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:48+08:00 ] 183.3.255.32 /back/admin.php?c=admin&nsukey=f7uaXjhg2sVec5CFMTmG5Sku4A8g8cXgr9o%2BrXi3UJmLSV%2BNYjKCR7fcDfPUnBEHhRnwIrFOvn3AYWYf6%2FU06gRH9i2uMv%2F85MFm2QAAK7h0Vtx5IdUdoXJUyyw54bYrIYEApSDwGQFLz3kePsxL5toq8tO9soGSs4Ta3YaZG%2Bk7ZwRRo35%2B5eSDAks%2FGn%2FWUyu1qX2DFKL%2FjyVe%2FBlcKA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:48+08:00 ] 14.116.133.169 /back/admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-11-30T15:48:48+08:00 ] 121.51.32.144 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-11-30T15:48:48+08:00 ] 120.204.17.73 /back/index.php?m=admin&c=index&nsukey=a6YvoR5kk1FCBLAbcqQVSuv%2FC5uYV86uIMSJFiA0LpK219OUWxVmlGFdH8CLaoEsDTDeYVZJ4oDR6JcecPLQ1ZGmRgUHndNqkV8SCvUDHWaLwYMkrUIVQuw88kyzcSqfgT7cobalmBbb0RqP%2BBtMtkaDgBrdhNzJMsW6elyDRFJQ%2FvOzaM8UeeqGI2bf97nr8yBvJLqC3sxmy614akRdEg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:48+08:00 ] 112.96.145.56 /back/admin.php?c=admin&nsukey=f7uaXjhg2sVec5CFMTmG5Sku4A8g8cXgr9o%2BrXi3UJmLSV%2BNYjKCR7fcDfPUnBEHhRnwIrFOvn3AYWYf6%2FU06gRH9i2uMv%2F85MFm2QAAK7h0Vtx5IdUdoXJUyyw54bYrIYEApSDwGQFLz3kePsxL5toq8tO9soGSs4Ta3YaZG%2Bk7ZwRRo35%2B5eSDAks%2FGn%2FWUyu1qX2DFKL%2FjyVe%2FBlcKA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 17 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2017-11-30T15:48:49+08:00 ] 120.204.17.73 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-11-30T15:48:56+08:00 ] 58.247.212.98 /back/admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:56+08:00 ] 58.247.212.98 /back/admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-11-30T15:48:58+08:00 ] 120.204.17.68 /back/admin.php?c=admin&nsukey=f7uaXjhg2sVec5CFMTmG5Sku4A8g8cXgr9o%2BrXi3UJmLSV%2BNYjKCR7fcDfPUnBEHhRnwIrFOvn3AYWYf6%2FU06gRH9i2uMv%2F85MFm2QAAK7h0Vtx5IdUdoXJUyyw54bYrIYEApSDwGQFLz3kePsxL5toq8tO9soGSs4Ta3YaZG%2Bk7ZwRRo35%2B5eSDAks%2FGn%2FWUyu1qX2DFKL%2FjyVe%2FBlcKA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:48:59+08:00 ] 120.204.17.68 /back/admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-11-30T15:48:59+08:00 ] 112.96.145.56 /back/admin.php?c=admin&nsukey=f7uaXjhg2sVec5CFMTmG5Sku4A8g8cXgr9o%2BrXi3UJmLSV%2BNYjKCR7fcDfPUnBEHhRnwIrFOvn3AYWYf6%2FU06gRH9i2uMv%2F85MFm2QAAK7h0Vtx5IdUdoXJUyyw54bYrIYEApSDwGQFLz3kePsxL5toq8tO9soGSs4Ta3YaZG%2Bk7ZwRRo35%2B5eSDAks%2FGn%2FWUyu1qX2DFKL%2FjyVe%2FBlcKA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 17 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-11-30T15:49:10+08:00 ] 112.96.145.56 /back/admin.php?c=time&a=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 ORDER BY listorder desc , id desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `subject_score` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `stu_basic_info` WHERE ( stu_id=156 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `class_info` WHERE ( class_id=45 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_id=87 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-11-30T15:49:12+08:00 ] 183.3.255.35 /back/admin.php?c=time&a=&nsukey=nnV%2BpTDAFWjXxl8FgCV2Ox1FyZgPEOfFYQUe3OdJLOZf5%2BS6S3TwOZcyAm5nMalXCFQaKBCBnnx0h0kdTzkHO4tJT0bCQcbfYAQ%2BYzPG1S4QBF2QeCz4Z075Odg%2BRt6nzFhC4O97ymgAgNO9ytfBjk7UXYZPdU1LvmdO1pO8kdqJhuFpg9yivRLaP%2BhDlwxe%2BAapUc9Me93fxGwN9IWTIQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 ORDER BY listorder desc , id desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `subject_score` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_basic_info` WHERE ( stu_id=156 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `class_info` WHERE ( class_id=45 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_id=87 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-11-30T15:49:12+08:00 ] 14.116.133.169 /back/admin.php?c=time&a=&nsukey=nnV%2BpTDAFWjXxl8FgCV2Ox1FyZgPEOfFYQUe3OdJLOZf5%2BS6S3TwOZcyAm5nMalXCFQaKBCBnnx0h0kdTzkHO4tJT0bCQcbfYAQ%2BYzPG1S4QBF2QeCz4Z075Odg%2BRt6nzFhC4O97ymgAgNO9ytfBjk7UXYZPdU1LvmdO1pO8kdqJhuFpg9yivRLaP%2BhDlwxe%2BAapUc9Me93fxGwN9IWTIQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 ORDER BY listorder desc , id desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `subject_score` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_basic_info` WHERE ( stu_id=156 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_info` WHERE ( class_id=45 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_id=87 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-11-30T15:49:18+08:00 ] 112.96.145.56 /back/admin.php?c=time&a=&nsukey=nnV%2BpTDAFWjXxl8FgCV2Ox1FyZgPEOfFYQUe3OdJLOZf5%2BS6S3TwOZcyAm5nMalXCFQaKBCBnnx0h0kdTzkHO4tJT0bCQcbfYAQ%2BYzPG1S4QBF2QeCz4Z075Odg%2BRt6nzFhC4O97ymgAgNO9ytfBjk7UXYZPdU1LvmdO1pO8kdqJhuFpg9yivRLaP%2BhDlwxe%2BAapUc9Me93fxGwN9IWTIQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 ORDER BY listorder desc , id desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `subject_score` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `stu_basic_info` WHERE ( stu_id=156 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class_info` WHERE ( class_id=45 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_id=87 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2017-11-30T15:49:20+08:00 ] 58.247.212.98 /back/admin.php?c=time&a=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 ORDER BY listorder desc , id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `subject_score` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_basic_info` WHERE ( stu_id=156 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class_info` WHERE ( class_id=45 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_id=87 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-11-30T15:49:22+08:00 ] 120.204.17.71 /back/admin.php?c=time&a=&nsukey=nnV%2BpTDAFWjXxl8FgCV2Ox1FyZgPEOfFYQUe3OdJLOZf5%2BS6S3TwOZcyAm5nMalXCFQaKBCBnnx0h0kdTzkHO4tJT0bCQcbfYAQ%2BYzPG1S4QBF2QeCz4Z075Odg%2BRt6nzFhC4O97ymgAgNO9ytfBjk7UXYZPdU1LvmdO1pO8kdqJhuFpg9yivRLaP%2BhDlwxe%2BAapUc9Me93fxGwN9IWTIQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 ORDER BY listorder desc , id desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `subject_score` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_basic_info` WHERE ( stu_id=156 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class_info` WHERE ( class_id=45 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_id=87 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-11-30T15:49:35+08:00 ] 112.96.145.56 /back/admin.php?c=time&a=edit&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 AND `id` = 45 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.390337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.390384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-11-30T15:49:37+08:00 ] 183.3.255.35 /back/admin.php?c=time&a=edit&id=45&nsukey=F2IdC4v4IrlkAXpCU7hoOwkIWjj01vpgb5CaKGGhhak82BCMgB2IIWLwjUBxRm1g3maqcBU%2B9B%2FNo5w%2BHimv7MClPtteRFjyfLkMv%2BxanS%2BO9isspN399qFbBF26eXQxox65KEN0jg4eLOGOlT1YAg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 AND `id` = 45 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-11-30T15:49:37+08:00 ] 14.116.133.169 /back/admin.php?c=time&a=edit&id=45&nsukey=F2IdC4v4IrlkAXpCU7hoOwkIWjj01vpgb5CaKGGhhak82BCMgB2IIWLwjUBxRm1g3maqcBU%2B9B%2FNo5w%2BHimv7MClPtteRFjyfLkMv%2BxanS%2BO9isspN399qFbBF26eXQxox65KEN0jg4eLOGOlT1YAg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 AND `id` = 45 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-11-30T15:49:38+08:00 ] 112.96.145.56 /back/admin.php?c=time&a=edit&id=45&nsukey=F2IdC4v4IrlkAXpCU7hoOwkIWjj01vpgb5CaKGGhhak82BCMgB2IIWLwjUBxRm1g3maqcBU%2B9B%2FNo5w%2BHimv7MClPtteRFjyfLkMv%2BxanS%2BO9isspN399qFbBF26eXQxox65KEN0jg4eLOGOlT1YAg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 AND `id` = 45 LIMIT 1   [ RunTime:0.0105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0107s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-11-30T15:49:45+08:00 ] 120.204.17.70 /back/admin.php?c=time&a=edit&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 AND `id` = 45 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-11-30T15:49:47+08:00 ] 120.204.17.69 /back/admin.php?c=time&a=edit&id=45&nsukey=F2IdC4v4IrlkAXpCU7hoOwkIWjj01vpgb5CaKGGhhak82BCMgB2IIWLwjUBxRm1g3maqcBU%2B9B%2FNo5w%2BHimv7MClPtteRFjyfLkMv%2BxanS%2BO9isspN399qFbBF26eXQxox65KEN0jg4eLOGOlT1YAg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 AND `id` = 45 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-11-30T15:50:32+08:00 ] 112.96.170.222 /back/admin.php?c=admin&a=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 17 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-11-30T15:50:33+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 8,8   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-11-30T15:51:09+08:00 ] 112.96.170.222 /back/admin.php?c=admin&a=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 17 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-11-30T15:51:09+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 8,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-11-30T15:51:46+08:00 ] 112.96.170.222 /back/admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 17 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-11-30T15:51:48+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 8,8   [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0107s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-11-30T15:52:25+08:00 ] 220.115.183.138 /back/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:52:25+08:00 ] 220.115.183.138 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-11-30T15:53:02+08:00 ] 106.120.160.109 /back/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:53:02+08:00 ] 106.120.160.109 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-11-30T15:53:16+08:00 ] 101.199.108.118 /back/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T15:53:16+08:00 ] 101.199.108.118 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-11-30T15:53:23+08:00 ] 106.120.161.68 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-11-30T15:53:29+08:00 ] 112.96.170.222 /back/admin.php?c=admin&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `openid` [ RunTime:0.0008s ]
+SQL: UPDATE `openid` SET `type`='0' WHERE ( people_id=95 AND type IN(-1,2) ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: UPDATE `teacher` SET `tea_type`='0' WHERE ( tea_id=95 ) [ RunTime:0.0008s ]
+
+[ 2017-11-30T15:53:32+08:00 ] 112.96.170.222 /back/admin.php?c=admin&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Undefined index: type /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 102 行.
+NOTIC: [8] Undefined index: type /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 102 行.
+NOTIC: [8] Undefined index: type /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 103 行.
+NOTIC: [8] Undefined index: tea_type /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `openid` [ RunTime:0.0013s ]
+SQL: UPDATE `openid` SET `type`=NULL WHERE ( people_id=95 AND type IN(-1,2) ) [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: UPDATE `teacher` SET `tea_type`=NULL WHERE ( tea_id=95 ) [ RunTime:0.0009s ]
+
+[ 2017-11-30T15:53:35+08:00 ] 220.181.132.196 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-11-30T15:53:36+08:00 ] 112.96.170.222 /back/admin.php?c=admin&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Undefined index: type /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 102 行.
+NOTIC: [8] Undefined index: type /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 102 行.
+NOTIC: [8] Undefined index: type /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 103 行.
+NOTIC: [8] Undefined index: tea_type /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `openid` [ RunTime:0.0012s ]
+SQL: UPDATE `openid` SET `type`=NULL WHERE ( people_id=87 AND type IN(-1,2) ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0012s ]
+SQL: UPDATE `teacher` SET `tea_type`=NULL WHERE ( tea_id=87 ) [ RunTime:0.0009s ]
+
+[ 2017-11-30T15:53:39+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 8,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-11-30T15:53:43+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-11-30T15:53:43+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 8,8   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-11-30T15:53:48+08:00 ] 112.96.170.222 /back/admin.php?c=admin&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `openid` [ RunTime:0.0009s ]
+SQL: UPDATE `openid` SET `type`='0' WHERE ( people_id=100 AND type IN(-1,2) ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0009s ]
+SQL: UPDATE `teacher` SET `tea_type`='0' WHERE ( tea_id=100 ) [ RunTime:0.0009s ]
+
+[ 2017-11-30T15:53:49+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-11-30T15:53:49+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 8,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-11-30T15:53:52+08:00 ] 112.96.170.222 /back/admin.php?c=admin&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `openid` [ RunTime:0.0009s ]
+SQL: UPDATE `openid` SET `type`='0' WHERE ( people_id=96 AND type IN(-1,2) ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: UPDATE `teacher` SET `tea_type`='0' WHERE ( tea_id=96 ) [ RunTime:0.0006s ]
+
+[ 2017-11-30T15:53:55+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-11-30T15:55:11+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 8,8   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-11-30T15:55:13+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-11-30T15:55:15+08:00 ] 112.96.170.222 /back/admin.php?m=admin&c=admin&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/AdminController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 ORDER BY listorder desc , tea_id desc LIMIT 8,8   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-11-30T16:01:04+08:00 ] 101.226.65.107 /back/index.php?m=admin&c=index&nsukey=a6YvoR5kk1FCBLAbcqQVSuv%2FC5uYV86uIMSJFiA0LpK219OUWxVmlGFdH8CLaoEsDTDeYVZJ4oDR6JcecPLQ1ZGmRgUHndNqkV8SCvUDHWaLwYMkrUIVQuw88kyzcSqfgT7cobalmBbb0RqP%2BBtMtkaDgBrdhNzJMsW6elyDRFJQ%2FvOzaM8UeeqGI2bf97nr8yBvJLqC3sxmy614akRdEg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T16:01:09+08:00 ] 101.226.65.107 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-11-30T16:01:33+08:00 ] 101.226.65.107 /back/admin.php?c=time&a=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: p /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageSize /opt/lampp/htdocs/back/Application/Admin/Controller/TimeController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 ORDER BY listorder desc , id desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `subject_score` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_basic_info` WHERE ( stu_id=156 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `class_info` WHERE ( class_id=45 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `teacher` WHERE ( tea_id=87 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/335b1c64e177ba54c2598bec117208d5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-11-30T16:02:02+08:00 ] 101.226.65.107 /back/admin.php?c=time&a=edit&id=45&nsukey=F2IdC4v4IrlkAXpCU7hoOwkIWjj01vpgb5CaKGGhhak82BCMgB2IIWLwjUBxRm1g3maqcBU%2B9B%2FNo5w%2BHimv7MClPtteRFjyfLkMv%2BxanS%2BO9isspN399qFbBF26eXQxox65KEN0jg4eLOGOlT1YAg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `subject_score` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `subject_score` WHERE `status` <> -1 AND `id` = 45 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: adminUser /opt/lampp/htdocs/back/Application/Common/Common/function.php 第 87 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/4d1f83e3430038e404997f71321ec812.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-11-30T16:02:15+08:00 ] 112.96.170.222 /back/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `root` <> 1 AND `tea_type` = -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class_info` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stu_basic_info` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu_basic_info` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `status` <> -1 ORDER BY listorder desc , menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+NOTIC: [8] Undefined index: a /opt/lampp/htdocs/back/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-11-30T18:45:20+08:00 ] 183.57.53.197 /back/index.php?m%3Dadmin%26c%3Dindex%26nsukey%3Da6YvoR5kk1FCBLAbcqQVSuv%252FC5uYV86uIMSJFiA0LpK219OUWxVmlGFdH8CLaoEsDTDeYVZJ4oDR6JcecPLQ1ZGmRgUHndNqkV8SCvUDHWaLwYMkrUIVQuw88kyzcSqfgT7cobalmBbb0RqP%252BBtMtkaDgBrdhNzJMsW6elyDRFJQ%252FvOzaM8UeeqGI2bf97nr8yBvJLqC3sxmy614akRdEg%253D%253D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T18:45:20+08:00 ] 183.57.53.197 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-11-30T19:39:54+08:00 ] 101.226.68.215 /back/admin.php?c%3Dtime%26a%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T19:39:54+08:00 ] 101.226.68.215 /back/admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-11-30T20:00:35+08:00 ] 183.57.53.197 /back/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-11-30T20:00:35+08:00 ] 183.57.53.197 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+

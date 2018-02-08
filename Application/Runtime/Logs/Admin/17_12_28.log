@@ -1,0 +1,309 @@
+[ 2017-12-28T09:03:52+08:00 ] 113.96.218.51 /back/index.php?nsukey=V2IfgrMmSKomiPKFou4uKHZjEwA88KN8Q0%2Bn0yQO7%2BU1AO4YGqvh18T2G8ZnUp6wOtb6lKNS9gsA1KikXX5Hp2BDyY8r5iGREEIYd1HQqcXNQWcyxHfL7zGJiKst0bcxiKAWMwGRCmYwP2lujJao%2B9Vd39il0xyLM1RUyd7VK2fk1nqMl9jxFh4SY93UH2O4RpUWp75Kj08CIxXSs7vMKw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002699s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-12-28T09:03:53+08:00 ] 113.96.218.51 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.236822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016562s ]
+
+[ 2017-12-28T09:03:53+08:00 ] 183.36.112.205 /back/index.php?nsukey=V2IfgrMmSKomiPKFou4uKHZjEwA88KN8Q0%2Bn0yQO7%2BU1AO4YGqvh18T2G8ZnUp6wOtb6lKNS9gsA1KikXX5Hp2BDyY8r5iGREEIYd1HQqcXNQWcyxHfL7zGJiKst0bcxiKAWMwGRCmYwP2lujJao%2B9Vd39il0xyLM1RUyd7VK2fk1nqMl9jxFh4SY93UH2O4RpUWp75Kj08CIxXSs7vMKw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-12-28T09:03:53+08:00 ] 113.96.219.249 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-12-28T09:03:54+08:00 ] 223.73.146.225 /back/index.php?nsukey=V2IfgrMmSKomiPKFou4uKHZjEwA88KN8Q0%2Bn0yQO7%2BU1AO4YGqvh18T2G8ZnUp6wOtb6lKNS9gsA1KikXX5Hp2BDyY8r5iGREEIYd1HQqcXNQWcyxHfL7zGJiKst0bcxiKAWMwGRCmYwP2lujJao%2B9Vd39il0xyLM1RUyd7VK2fk1nqMl9jxFh4SY93UH2O4RpUWp75Kj08CIxXSs7vMKw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-12-28T09:03:54+08:00 ] 223.73.146.225 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-12-28T09:04:02+08:00 ] 14.116.133.170 /back/index.php?m=&c=login&nsukey=m2u%2B2TVNLve4zUXtUh2e%2BiEktP7bjHmS5w3M21ogrMbT5fYlebLOxDG%2BnZ9QpqLCv2WB5bmaFGePi4JpVRDOK1PMHeG6FZ6YNMAc%2F%2BXCXItKBEbOpHkRRb%2BJgUwzYqDZUTfRuELCDqCe72QkHW1BaCCQpm0ltoMqsjVau0a%2B8pa1tUE9%2FnpUoyXfGO1v9%2F6WwL9Cs9dIsnPOMstiV8ukMw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-12-28T09:04:02+08:00 ] 14.116.133.171 /back/index.php?m=&c=login&nsukey=m2u%2B2TVNLve4zUXtUh2e%2BiEktP7bjHmS5w3M21ogrMbT5fYlebLOxDG%2BnZ9QpqLCv2WB5bmaFGePi4JpVRDOK1PMHeG6FZ6YNMAc%2F%2BXCXItKBEbOpHkRRb%2BJgUwzYqDZUTfRuELCDqCe72QkHW1BaCCQpm0ltoMqsjVau0a%2B8pa1tUE9%2FnpUoyXfGO1v9%2F6WwL9Cs9dIsnPOMstiV8ukMw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-12-28T09:04:45+08:00 ] 120.204.17.69 /back/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-12-28T09:04:46+08:00 ] 120.204.17.69 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-12-28T09:04:48+08:00 ] 120.204.17.68 /back/index.php?nsukey=V2IfgrMmSKomiPKFou4uKHZjEwA88KN8Q0%2Bn0yQO7%2BU1AO4YGqvh18T2G8ZnUp6wOtb6lKNS9gsA1KikXX5Hp2BDyY8r5iGREEIYd1HQqcXNQWcyxHfL7zGJiKst0bcxiKAWMwGRCmYwP2lujJao%2B9Vd39il0xyLM1RUyd7VK2fk1nqMl9jxFh4SY93UH2O4RpUWp75Kj08CIxXSs7vMKw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-12-28T09:04:48+08:00 ] 120.204.17.68 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-12-28T09:04:54+08:00 ] 58.247.212.98 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-12-28T09:05:02+08:00 ] 183.192.201.97 /back/index.php?m=&c=login&nsukey=m2u%2B2TVNLve4zUXtUh2e%2BiEktP7bjHmS5w3M21ogrMbT5fYlebLOxDG%2BnZ9QpqLCv2WB5bmaFGePi4JpVRDOK1PMHeG6FZ6YNMAc%2F%2BXCXItKBEbOpHkRRb%2BJgUwzYqDZUTfRuELCDqCe72QkHW1BaCCQpm0ltoMqsjVau0a%2B8pa1tUE9%2FnpUoyXfGO1v9%2F6WwL9Cs9dIsnPOMstiV8ukMw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-12-28T09:05:02+08:00 ] 120.204.17.68 /back/index.php?m=&c=login&nsukey=m2u%2B2TVNLve4zUXtUh2e%2BiEktP7bjHmS5w3M21ogrMbT5fYlebLOxDG%2BnZ9QpqLCv2WB5bmaFGePi4JpVRDOK1PMHeG6FZ6YNMAc%2F%2BXCXItKBEbOpHkRRb%2BJgUwzYqDZUTfRuELCDqCe72QkHW1BaCCQpm0ltoMqsjVau0a%2B8pa1tUE9%2FnpUoyXfGO1v9%2F6WwL9Cs9dIsnPOMstiV8ukMw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-12-28T12:09:28+08:00 ] 14.17.21.58 /back/index.php?nsukey%3DV2IfgrMmSKomiPKFou4uKHZjEwA88KN8Q0%252Bn0yQO7%252BU1AO4YGqvh18T2G8ZnUp6wOtb6lKNS9gsA1KikXX5Hp2BDyY8r5iGREEIYd1HQqcXNQWcyxHfL7zGJiKst0bcxiKAWMwGRCmYwP2lujJao%252B9Vd39il0xyLM1RUyd7VK2fk1nqMl9jxFh4SY93UH2O4RpUWp75Kj08CIxXSs7vMKw%253D%253D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined variable: module /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /opt/lampp/htdocs/back/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-12-28T12:09:28+08:00 ] 14.17.21.58 /back/index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Use of undefined constant ‘3306’ - assumed '‘3306’' /opt/lampp/htdocs/back/Application/Admin/Conf/db.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
