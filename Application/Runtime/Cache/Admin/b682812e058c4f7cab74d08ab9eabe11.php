@@ -112,6 +112,7 @@
                             <div class="header">
                                 <h4 class="title">老师管理</h4>
                             </div>
+                            <button onclick="skip()" type="submit" class="btn btn-info btn-fill" style="margin: 10px 15px;padding:7px 15px">添加</button>
                             <div class="content table-responsive table-full-width">
                                 <form id="singcms-listorder">
                                     <table class="table table-hover table-striped singcms-table">

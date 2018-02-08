@@ -128,7 +128,7 @@
                                 <label for="inputname" class="col-sm-2 control-label">老师:</label>
                                 <div class="col-sm-5">
                                     <select class="form-control" name="tea_id">
-                                        <?php if(is_array($teacher)): foreach($teacher as $key=>$teacher): ?><option value="<?php echo ($teacher["tea_id"]); ?>"><?php echo ($teacher["tea_name"]); ?></option><?php endforeach; endif; ?>
+                                        <?php if(is_array($teacher)): foreach($teacher as $key=>$teacher): ?><option value="<?php echo ($teacher["tea_id"]); ?>" <?php if($teacher['tea_id'] == $class['tea_id']): ?>selected<?php endif; ?>><?php echo ($teacher["tea_name"]); ?></option><?php endforeach; endif; ?>
                                     </select>
                                 </div>
                             </div>

@@ -76,9 +76,8 @@ class AdminController extends CommonController
 
             return show(0,'新增失败',$teaId);
         } else {
-            $this->display();
+            return $this->display();
         }
-        $this->display();
     }
 
 
@@ -99,14 +98,14 @@ class AdminController extends CommonController
             $id = $_POST['id'];
 
             //执行审核操作
-            if($_POST['type'] || $_POST['type'] == 0){
+            if($_POST['type'] || $_POST['type'] === 0){
                 $type = $_POST['type'];
                 $tea_type = $_POST['tea_type'];
                 //echo $id."||".$type."||".$tea_type;exit;
                 $res = D("Openid")->updateStatusById($id,$type);
                 $res2 = D("Admin")->updateTeaTypeById($id,$tea_type);
                 // echo $res;echo $res2;exit;
-                if($res && $res2){
+                if($res2){
                     return show(1,'成功');
                 }else{
                     return show(0,'失败');

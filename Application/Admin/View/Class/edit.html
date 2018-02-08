@@ -27,7 +27,7 @@
                                 <div class="col-sm-5">
                                     <select class="form-control" name="tea_id">
                                         <foreach name="teacher" item="teacher">
-                                            <option value="{$teacher.tea_id}">{$teacher.tea_name}</option>
+                                            <option value="{$teacher.tea_id}" <if condition="$teacher['tea_id'] eq $class['tea_id']">selected</if>>{$teacher.tea_name}</option>
                                         </foreach>
                                     </select>
                                 </div>
