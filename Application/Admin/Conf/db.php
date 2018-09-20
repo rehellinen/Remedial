@@ -8,12 +8,10 @@
 
 return array(
     'DB_TYPE' => 'mysql',
-    'DB_HOST' => '59994b4a757bb.gz.cdb.myqcloud.com',
-    //内网10.66.194.34
-    //外网5971951159b09.gz.cdb.myqcloud.com:5136
+    'DB_HOST' => '',
     'DB_USER' => 'root',
-    'DB_PWD' => 'a12345678',
-    'DB_PORT' => 5702,
-    'DB_NAME' => 'test',
+    'DB_PWD' => '',
+    'DB_PORT' => '',
+    'DB_NAME' => '',
     'DB_CHARSET' => 'utf8',
 );
